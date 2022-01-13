@@ -1,0 +1,30 @@
+.name h4 {
+  font-size: 150px;
+  margin: 0px;
+}
+
+.name p {
+  font-size: 50px;
+  margin: 0px;
+  /*font-family: 'Raleway', sans-serif;*/
+  /*font-family: 'The Nautigal', cursive;*/
+}
+
+.photo img {
+  border: solid mintcream 3px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  /*font-family: 'The Nautigal', cursive;*/
+  font-family: 'Raleway', sans-serif;
+  padding: 100px;
+}
+
+.container {
+  background-color: indianred;
+  min-height: 60vh;
+}

@@ -1,0 +1,69 @@
+.portfolio p {
+  font-size: 75px;
+  font-family: 'Licorice', cursive;
+}
+
+.portfolio {
+  position: relative;
+  left: 400px;
+}
+
+.screenshot img {
+  width: 350px;
+  height: 200px;
+}
+
+.workConatiner {
+  display: flex;
+  /*justify-content: center;*/
+}
+
+.work {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Raleway', sans-serif;
+}
+
+.description {
+  padding-left: 50px;
+}
+
+.description p {
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.description h4 {
+  font-size: 30px;
+}
+
+.website {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-weight: bold;
+}
+
+.screenshot {
+  position: relative;
+  bottom: 5px;
+  margin-bottom: 10px;
+  border: dashed indianred 3px;
+}
+
+.screenshot:hover img {
+  opacity: 30%;
+}
+
+.screenshot:hover .website {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
