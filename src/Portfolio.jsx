@@ -43,7 +43,7 @@ let work = [
 function Porfolio() {
   return (
     <div className="portfolio">
-      <p>My Recent Work</p>
+      <div className="portfolio-title">My Recent Work</div>
       <div className="screenshot">
         {work.map((w) => {
           return (
@@ -56,21 +56,6 @@ function Porfolio() {
           );
         })}
       </div>
-      {/*<ol>
-        {work.map((w) => {
-          return (
-            <li className="work">
-              <div className="screenshot">
-                <img src={w.screenshot} alt="w.title" />
-              </div>
-              <div className="desciption">
-                <h4>{w.title}</h4>
-                <p>{w.desciption}</p>
-              </div>
-            </li>
-          );
-        })}
-      </ol>*/}
     </div>
   );
 }
