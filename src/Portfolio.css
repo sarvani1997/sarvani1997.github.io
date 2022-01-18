@@ -4,16 +4,12 @@
   text-align: center;
 }
 
-
-
-
 .screenshot {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   width: 1850px;
 }
-
 
 .screenshot img {
   width: 450px;
@@ -31,18 +27,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 30px ;
+  margin-bottom: 30px;
 }
 
 .title {
   width: 450px;
   text-align: center;
   background-color: indianred;
-  color:  white;
+  color: white;
   padding: 3px;
 }
-
-
 
 /*
 
@@ -102,3 +96,4 @@
 }
 
 
+*/
