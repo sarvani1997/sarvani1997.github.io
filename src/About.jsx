@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import './About.css';
 
-import photo from './photo.jpg';
+import photo from './photo1.jpeg';
 import GitHub from './GitHub.png';
 import gmail from './gmail.png';
+import Resume from './Resume.pdf';
 
 function About() {
   return (
@@ -13,6 +14,10 @@ function About() {
           <p>Hello,</p>
           <h4>I'm Sarvani</h4>
           <p>Jr. Front-end Developer</p>
+
+          <a className="link" href={Resume} target="_blank">
+            Download Resume
+          </a>
         </div>
         <div className="photo">
           <img src={photo} alt="Image" />

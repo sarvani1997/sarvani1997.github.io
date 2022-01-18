@@ -44,26 +44,33 @@ function Porfolio() {
   return (
     <div className="portfolio">
       <p>My Recent Work</p>
-      {work.map((w) => {
-        return (
-          <div className="workConatiner">
-            <div className="work">
-              <div className="screenshot">
+      <div className="screenshot">
+        {work.map((w) => {
+          return (
+            <div className="image">
+              <a href={w.link} target="_blank">
                 <img src={w.screenshot} alt={w.title} />
-                <div className="website">
-                  <a href={w.link} target="_blank">
-                    view website
-                  </a>
-                </div>
+              </a>
+              <h3 className="title">{w.title}</h3>
+            </div>
+          );
+        })}
+      </div>
+      {/*<ol>
+        {work.map((w) => {
+          return (
+            <li className="work">
+              <div className="screenshot">
+                <img src={w.screenshot} alt="w.title" />
               </div>
-              <div className="description">
+              <div className="desciption">
                 <h4>{w.title}</h4>
                 <p>{w.desciption}</p>
               </div>
-            </div>
-          </div>
-        );
-      })}
+            </li>
+          );
+        })}
+      </ol>*/}
     </div>
   );
 }

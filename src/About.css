@@ -6,25 +6,43 @@
 .name p {
   font-size: 50px;
   margin: 0px;
-  /*font-family: 'Raleway', sans-serif;*/
-  /*font-family: 'The Nautigal', cursive;*/
 }
 
 .photo img {
-  border: solid mintcream 3px;
-  height: 300px;
+  border: dashed white 2px;
+  height: 375px;
   border-radius: 50%;
 }
 
 .about {
   display: flex;
   justify-content: space-around;
-  /*font-family: 'The Nautigal', cursive;*/
   font-family: 'Raleway', sans-serif;
   padding: 100px;
+  /*color: white;*/
 }
 
 .container {
   background-color: indianred;
   min-height: 60vh;
+}
+
+.link {
+  position: relative;
+  top: 60px;
+  padding: 10px;
+  color: black;
+  background-color: #faeee7;
+  text-decoration: none;
+  border: solid black 2px;
+  font-weight: bolder;
+  border-radius: 8px;
+}
+
+.link:hover {
+  opacity: 80%;
+  color: white;
+  background-color: indianred;
+  border: solid white 2px;
+  font-weight: bolder;
 }
