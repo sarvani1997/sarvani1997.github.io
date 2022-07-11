@@ -17,7 +17,7 @@
 .about {
   display: flex;
   justify-content: space-around;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   padding: 100px;
   /*color: white;*/
 }
@@ -31,6 +31,7 @@
   position: relative;
   top: 60px;
   padding: 10px;
+  margin: 2px;
   color: black;
   background-color: #faeee7;
   text-decoration: none;
