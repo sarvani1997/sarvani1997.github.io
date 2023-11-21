@@ -1,18 +1,18 @@
 import "./Portfolio.css";
 
 import myJournal from "./images/myjournal.png";
-import issueTracker from "./images/issue-tracker.png";
 import reddit from "./images/reddit.png";
 import periodTracker from "./images/periodTracker.png";
 import whileIEat from "./images/whileIEat.png";
+import vocab from "./images/vocab.png";
 
 let work = [
   {
-    screenshot: issueTracker,
-    title: "Issue Tracker",
-    desciption: "clone of github issues",
-    link: "https://issue-tracker-nu.vercel.app/",
-    git: "https://github.com/sarvani1997/issue_tracker",
+    screenshot: vocab,
+    title: "ABC",
+    desciption: "kids learning app",
+    link: "https://build-vocab.vercel.app/",
+    git: "https://github.com/sarvani1997/build_vocab",
   },
   {
     screenshot: whileIEat,
