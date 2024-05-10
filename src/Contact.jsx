@@ -1,8 +1,9 @@
 import "./ContactStyles.css";
+import bg from "./images/footer-bg.png"
 
 function Contact() {
   return (
-    <div className="contact"  style={{ backgroundImage: `url(src/images/footer-bg.png)` }}>
+    <div className="contact"  style={{ backgroundImage: bg }}>
       <div className="contact-section">
         <div className="contact-section-header">
           <h2>Let's work together...</h2>
