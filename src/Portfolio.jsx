@@ -7,13 +7,7 @@ import whileIEat from "./images/whileIEat.png";
 import vocab from "./images/vocab.png";
 
 let work = [
-  {
-    screenshot: vocab,
-    title: "ABC",
-    desciption: "kids learning app",
-    link: "https://build-vocab.vercel.app/",
-    git: "https://github.com/sarvani1997/build_vocab",
-  },
+
   {
     screenshot: whileIEat,
     title: "While I Eat",
@@ -28,6 +22,13 @@ let work = [
     desciption: "Reddit clone application.",
     link: "https://reddit.onrender.com/sign_up",
     git: "https://github.com/sarvani1997/reddit",
+  },
+  {
+    screenshot: vocab,
+    title: "ABC",
+    desciption: "kids learning app",
+    link: "https://build-vocab.vercel.app/",
+    git: "https://github.com/sarvani1997/build_vocab",
   },
   {
     screenshot: periodTracker,
@@ -56,16 +57,8 @@ function Porfolio() {
               <div className="image">
                 <div className="overlap">
                   <img src={w.screenshot} alt={w.title} />
-                  <div className="redirect-btns">
-                    <a href={w.git} target="_blank" className="btn-link">
-                      Source Code
-                    </a>
-
-                    <a href={w.link} target="_blank" className="btn-link">
-                      View Website
-                    </a>
-                  </div>
-                </div>
+                
+                
                 <h3 className="title">{w.title}</h3>
                 <div className="links">
                   <a className="btn-link-2" href={w.git}>
@@ -74,6 +67,7 @@ function Porfolio() {
                   <a className="btn-link-2" href={w.link}>
                     Website
                   </a>
+                </div>
                 </div>
               </div>
             );
