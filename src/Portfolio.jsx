@@ -5,8 +5,14 @@ import reddit from "./images/reddit.png";
 import periodTracker from "./images/periodTracker.png";
 import whileIEat from "./images/whileIEat.png";
 import vocab from "./images/vocab.png";
+import pinnacles from "./images/pinnacles.png"
 
 let work = [
+  {
+    screenshot: pinnacles,
+    title: "Pinnacles Infotech",
+    link: "https://pinnacles-test.netlify.app/",
+  },
 
   {
     screenshot: whileIEat,
@@ -61,9 +67,9 @@ function Porfolio() {
                 
                 <h3 className="title">{w.title}</h3>
                 <div className="links">
-                  <a className="btn-link-2" href={w.git}>
+                 {w.git && <a className="btn-link-2" href={w.git}>
                     Source Code
-                  </a>
+                  </a>}
                   <a className="btn-link-2" href={w.link}>
                     Website
                   </a>

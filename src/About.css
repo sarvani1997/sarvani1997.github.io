@@ -12,7 +12,6 @@
 }
 
 .photo img {
-  border: dashed white 2px;
   height: 375px;
   border-radius: 50%;
 }
