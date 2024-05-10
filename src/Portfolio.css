@@ -23,7 +23,7 @@
   margin-bottom: 0px;
   opacity: 90%;
 
-  /* border: dashed #01015c 3px; */
+  /* border: dashed #01015ce8 3px; */
 }
 
 .overlap:hover img {
@@ -41,7 +41,7 @@
 .title {
   align-self: stretch;
   text-align: center;
-  background-color: #01015c;
+  background-color: #01015ce8;
   color: white;
   padding:5px
 }
@@ -65,7 +65,7 @@
   padding: 10px;
   color: white;
   margin: 0px 5px 0px 5px;
-  background-color: #01015c;
+  background-color: #01015ce8;
   text-decoration: none;
   border: solid white 2px;
   font-weight: bolder;
@@ -74,14 +74,14 @@
 
 .btn-link:hover {
   opacity: 80%;
-  color: #01015c;
-  border: solid #01015c 2px;
+  color: #01015ce8;
+  border: solid #01015ce8 2px;
   background-color: #d8eeef;
   font-weight: bolder;
 }
 
 .links {
-  background-color: #01015c;
+  background-color: #01015ce8;
   display: flex;
   align-self: stretch;
   justify-content: space-around;
@@ -98,7 +98,7 @@
 .btn-link-2:hover {
   /* opacity: 80%; */
   color: white;
-  /* border: solid #01015c 2px; */
+  /* border: solid #01015ce8 2px; */
   /* background-color: #d8eeef; */
   padding: 5px;
   font-weight: 900;
@@ -125,7 +125,7 @@
     padding: 5px;
     color: white;
     margin: 0px 5px 0px 5px;
-    background-color: #01015c;
+    background-color: #01015ce8;
     text-decoration: none;
     border: solid white 2px;
     font-weight: bolder;

@@ -2,7 +2,7 @@ import "./ContactStyles.css";
 
 function Contact() {
   return (
-    <div className="contact">
+    <div className="contact"  style={{ backgroundImage: `url(src/careers-bg.png)` }}>
       <div className="contact-section">
         <div className="contact-section-header">
           <h2>Let's work together...</h2>
