@@ -1,8 +1,9 @@
 .portfolio-title {
-  font-size: 75px;
-  font-family: "Licorice", cursive;
+  font-size: 40px;
   text-align: center;
   margin: 50px 0px 20px 0px;
+  color: #01015ce8;
+
 }
 
 .portfolio {
@@ -102,7 +103,9 @@
   font-size: 10px;
 }
 
-
+.portfolio-title {
+  font-size: 15px;
+}
 
   .overlap {
     position: relative;

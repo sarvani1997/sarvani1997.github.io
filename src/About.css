@@ -19,7 +19,7 @@
 .about {
   display: flex;
   justify-content: space-around;
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
   padding-top: 100px;
   color: white;
 }

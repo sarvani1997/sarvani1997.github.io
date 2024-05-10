@@ -1,13 +1,12 @@
 import "./About.css";
 
 import photo from "./images/photo1.jpeg";
-import bg from "./images/bg.png"
 
 import Resume from "./images/Resume.pdf";
 
 function About() {
   return (
-    <div className="container"  style={{ backgroundImage: bg }}>
+    <div className="container"  style={{ backgroundImage: `url(/src/images/bg.png)` }}>
       <div className="about">
         <div className="name">
           <p>Hello,</p>
