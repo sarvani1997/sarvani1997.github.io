@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #faeee7;
-  border: dashed indianred 5px;
+  background-color: #e1eff0;
+  /* border: dashed indianred 5px; */
 }
 
 code {

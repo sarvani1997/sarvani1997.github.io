@@ -1,9 +1,12 @@
 .name h4 {
-  font-size: 150px;
+  font-size: 125px;
   margin: 0px;
+  color:white;
+
 }
 
 .name p {
+  color:white;
   font-size: 50px;
   margin: 0px;
 }
@@ -18,13 +21,16 @@
   display: flex;
   justify-content: space-around;
   font-family: "Raleway", sans-serif;
-  padding: 100px;
-  /*color: white;*/
+  padding-top: 100px;
+  color: white;
 }
 
 .container {
-  background-color: indianred;
-  min-height: 60vh;
+  background-color: #063970;
+  min-height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .link {
@@ -33,7 +39,7 @@
   padding: 10px;
   margin: 2px;
   color: black;
-  background-color: #faeee7;
+  background-color: white;
   text-decoration: none;
   border: solid black 2px;
   font-weight: bolder;
@@ -43,7 +49,7 @@
 .link:hover {
   opacity: 80%;
   color: white;
-  background-color: indianred;
+  background-color: #01015c;
   border: solid white 2px;
   font-weight: bolder;
 }
@@ -56,9 +62,18 @@
 
 @media only screen and (max-width: 600px) {
   div.name > p {
-    font-size: 30px;
+    font-size: 20px;
   }
   div.name > h4 {
-    font-size: 80px;
+    font-size: 50px;
+  }
+ .container {
+  min-height: 60vh;
+
+  }
+  .link {
+    font-size: 10px;
+  padding: 5px;
+
   }
 }

@@ -6,7 +6,7 @@ import Resume from "./images/Resume.pdf";
 
 function About() {
   return (
-    <div className="container">
+    <div className="container"  style={{ backgroundImage: `url(src/bg.png)` }}>
       <div className="about">
         <div className="name">
           <p>Hello,</p>
@@ -25,7 +25,7 @@ function About() {
           </a>*/}
         </div>
         <div className="photo">
-          <img src={photo} alt="Image" />
+          {/* <img src={photo} alt="Image" /> */}
         </div>
       </div>
     </div>
