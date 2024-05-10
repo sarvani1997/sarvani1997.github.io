@@ -1,5 +1,5 @@
-.name h4 {
-  font-size: 125px;
+.name h4  {
+  font-size: 100px;
   margin: 0px;
   color:white;
 
@@ -7,7 +7,7 @@
 
 .name p {
   color:white;
-  font-size: 50px;
+  font-size: 40px;
   margin: 0px;
 }
 
@@ -19,13 +19,12 @@
 .about {
   display: flex;
   justify-content: space-around;
-  /* font-family: "Raleway", sans-serif; */
   padding-top: 100px;
   color: white;
 }
 
 .container {
-  background-color: #063970;
+  background-color: #01015c;
   min-height: 80vh;
   background-position: center;
   background-repeat: no-repeat;
