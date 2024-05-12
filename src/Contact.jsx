@@ -5,7 +5,9 @@ function Contact() {
     <div className="contact"  style={{ backgroundImage: `url(assets/footer-bg.png)` }}>
       <div className="contact-section">
         <div className="contact-section-header">
-          <h2>Let's work together...</h2>
+          <p className="contact-title">Get In Touch</p>
+          <p className="contact-description">I'm on the lookout for new opportunities in software development. Feel free to reach out if you have something in mind; I'll get back to you promptly. Let's explore how we can work together!</p>
+        </div>
         </div>
         <div className="contact-links">
           <a
@@ -27,7 +29,7 @@ function Contact() {
             <i className="fas fa-mobile-alt"></i> Call me
           </a>
         </div>
-      </div>
+   
     </div>
   );
 }

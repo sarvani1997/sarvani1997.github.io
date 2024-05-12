@@ -30,13 +30,6 @@ let work = [
     git: "https://github.com/sarvani1997/reddit",
   },
   {
-    screenshot: vocab,
-    title: "ABC",
-    desciption: "kids learning app",
-    link: "https://build-vocab.vercel.app/",
-    git: "https://github.com/sarvani1997/build_vocab",
-  },
-  {
     screenshot: periodTracker,
     title: "Period  Tracker",
     desciption: "Here, the user can track and predict their period.",
